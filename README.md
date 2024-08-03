@@ -29,9 +29,9 @@ Define the required variables in constants.py as shown below:
 ```
 # creds/constants.py
 
-dblink = "your_firebase_database_link"
-firebaseStorageBucket = "your_firebase_storage_bucket_name"
-User = "your_username"
+dblink = "your_firebase_database_link e.g. somethingsomething.firebasedatabase.app"
+firebaseStorageBucket = "your_firebase_storage_bucket_name e.g something something.appspot.com"
+User = 1
 tomtom = "your_tomtom_api_key"
 
 ```
