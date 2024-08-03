@@ -15,9 +15,9 @@ To ensure that the BusRouter application runs smoothly, you need to create a con
 
 ## Required Variables 
 
-dblink: The link to your Firebase Realtime Database.
-firebaseStorageBucket: The name of your Firebase Storage bucket.
-User: The user identifier that is used in your application.
+dblink: The link to your Firebase Realtime Database.  
+firebaseStorageBucket: The name of your Firebase Storage bucket.  
+User: The user identifier that is used in your application.  
 tomtom: The API key for accessing TomTom services.
 
 ## Steps to Create the Cosntants file
