@@ -9,7 +9,6 @@ The system optimizes routes based on three key criteria: The three criteria incl
 
 ![Firebase Schema drawio](https://github.com/user-attachments/assets/34f421d8-31f6-4dd9-ae89-7a57469fe8a7)
 
-# Video
 # Configuration
 
 To ensure that the BusRouter application runs smoothly, you need to create a constants file to store important configuration variables. This file will contain sensitive information such as database links and storage buckets, which are essential for the application to function.
