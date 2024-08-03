@@ -1,0 +1,72 @@
+/* Navbar Background Color */
+.navbar {
+    background-color: #041E35 !important; 
+}
+
+/* Dark Mode Styles */
+body.darkMode {
+    --background: #1e272e; /* Dark background */
+    --color: #f1f2f6; /* Light text */
+}
+
+/* Light Mode Styles */
+body:not(.darkMode) {
+    --background: #f1f2f6; /* Light background */
+    --color: #1e272e; /* Dark text */
+}
+
+body {
+    background-color: var(--background);
+    color: var(--color);
+}
+
+body.darkMode .form-label,
+body.darkMode h3,
+body.darkMode p.settings, 
+body.darkMode .form-check-label {
+    color: var(--color);
+}
+
+body:not(.darkMode) .form-label,
+body:not(.darkMode) h3,
+body:not(.darkMode) p.settings, 
+body:not(.darkMode) .form-check-label {
+    color: var(--color);
+}
+
+.form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.form-check-input:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+.form-check-input:checked:focus {
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #e4e4e4;
+    color: black;
+}
+
+.select2-results__option {
+    color: black;
+}
+
+.modal-content,
+.card-body {
+    background-color: var(--background);
+    color: var(--color);
+}
+
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.1); /* Lighten the toggler icon border */
+}
