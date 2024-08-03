@@ -10,3 +10,28 @@ The system optimizes routes based on three key criteria: The three criteria incl
 ![Firebase Schema drawio](https://github.com/user-attachments/assets/34f421d8-31f6-4dd9-ae89-7a57469fe8a7)
 
 # Video
+# Configuration
+
+To ensure that the BusRouter application runs smoothly, you need to create a constants file to store important configuration variables. This file will contain sensitive information such as database links and storage buckets, which are essential for the application to function.
+
+## Required Variables 
+
+dblink: The link to your Firebase Realtime Database.
+firebaseStorageBucket: The name of your Firebase Storage bucket.
+User: The user identifier that is used in your application.
+tomtom: The API key for accessing TomTom services.
+
+## Steps to Create the Cosntants file
+Create a directory named creds at the root of your project if it doesn't already exist.
+Inside the creds directory, create a file named constants.py.
+Define the required variables in constants.py as shown below:
+
+```
+# creds/constants.py
+
+dblink = "your_firebase_database_link"
+firebaseStorageBucket = "your_firebase_storage_bucket_name"
+User = "your_username"
+tomtom = "your_tomtom_api_key"
+
+```
